@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.srf-player"
+<addon id="plugin.video.srfplay"
        name="Play SRF"
        version="1.0"
        provider-name="Andreas Wetzel [kodi@mindmade.org]">
