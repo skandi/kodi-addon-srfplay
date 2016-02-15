@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<settings>
+    <!-- General -->
+    <category label="30100">
+        <setting id="quality" type="enum" label="30110" values="HD|SD" default="0" />
+        <setting id="dlpath"  type="folder" label="30120" />
+    </category>
+</settings>

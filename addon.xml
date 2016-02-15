@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.srf-player"
+       name="Play SRF"
+       version="1.0"
+       provider-name="Andreas Wetzel [kodi@mindmade.org]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="2.0.10"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="plugin.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Play SRF</summary>
+    <description>
+      This plug-in allows access to the content of Play SRF (http://www.srf.ch/play/tv).
+      It is the successor to the SF Videoportal Addon and was developed during/after the SRGSSR Hackdays.
+    </description>
+  </extension>
+</addon>
