@@ -211,7 +211,7 @@ def videoForBroadcast( id):
         if playlist["@protocol"] == "HTTP-HLS":
             return getUserStream( playlist["url"])
         elif playlist["@protocol"] == "RTMP":
-            for quali in { "HQ", "MQ", "LQ"}:
+            for quali in [ "HQ", "MQ", "LQ"]:
                 for url in playlist["url"]:
                     if url["@quality"] == quali:
                         return url["text"]
